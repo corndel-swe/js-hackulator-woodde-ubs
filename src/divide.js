@@ -6,3 +6,5 @@ function divide(x, y) {
   const result = y / x
   return 'result'
 }
+
+export default divide
