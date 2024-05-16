@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200px" src="assets/logo.png" />
+  <img width="200px" src="assets/hackulator-logo.png" />
 </p>
 
 # Hackulator
@@ -26,8 +26,7 @@ Bugs... bugs everywhere!
    You should see some output in the terminal saying the packages have been
    audited. If you've got this far, great! You're on track.
 
-> [!NOTE]
-> If you see a message about "vulnerabilities", don't worry. We aren't
+> [!NOTE] If you see a message about "vulnerabilities", don't worry. We aren't
 > deploying our code. This is something we'll talk about later.
 
 1. Get started with the deep dive below and happy learning!
