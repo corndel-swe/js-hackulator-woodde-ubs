@@ -31,7 +31,7 @@ Bugs... bugs everywhere!
 > If you see a message about "vulnerabilities", don't worry. We aren't deploying
 > our code. This is something we'll talk about later.
 
-1. Get started with the deep dive below and happy learning!
+Get started with the deep dive below and happy learning!
 
 ## Workflow
 
@@ -74,3 +74,7 @@ We'd recommend squashing the bugs in the following order:
 1. [heron.js](/src/heron.js)
 
 1. [gcd.js](/src/gcd.js)
+
+## Extension
+
+Are there any other functions you could add to the calculator?
