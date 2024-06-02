@@ -44,16 +44,14 @@ in the terminal.
 
 > [!TIP]
 >
-> There can be quite a lot of output in the terminal when you run tests.
-> Scroll up to the top of the output to see a summary of the results, then
-> scroll through the output to see more detail about why each test has failed.
-> You can run the command
+> We have included additional scripts to test individual files.
+> For example, running
 >
 > ```bash
-> clear
+> npm run test:add
 > ```
 >
-> to clean the terminal and make reading easier.
+> in the terminbal will test only the `add.js` code.
 
 ## Committing
 
