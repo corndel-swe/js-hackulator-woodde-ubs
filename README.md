@@ -32,7 +32,7 @@ Bugs... bugs everywhere!
 > If you see a message about "vulnerabilities", don't worry. We aren't deploying
 > our code. This is something we'll talk about later.
 
-## Running tests
+## Testing
 
 To check if your solution for one of the exercises has worked, you can run the command
 
@@ -47,35 +47,53 @@ in the terminal.
 > There can be quite a lot of output in the terminal when you run tests.
 > Scroll up to the top of the output to see a summary of the results, then
 > scroll through the output to see more detail about why each test has failed.
-
-> [!TIP]
->
-> Run tests frequently! You should run tests every time you think you've solved
-> something. You can run the command:
+> You can run the command
 >
 > ```bash
 > clear
 > ```
 >
-> in the terminal to clear it and test again to make reading easier.
+> to clean the terminal and make reading easier.
 
-## Committing and pushing
+## Committing
 
-Each time you fix a bug, you should commit your code:
+Each time you fix a bug, you should commit your code with a useful message.
+
+For example,
 
 ```bash
 git commit -am "fixes add.js"
 ```
 
-And then "push" it to Github:
+or
+
+```bash
+git commit -am "attemps subtract.js (feedback needed)"
+```
+
+## Pushing
 
 ```bash
 git push
 ```
 
-This means other people can see the code you've written, and you can get feedback if needed.
+This means other people can see the code you've written, and you can get help if needed.
 
 ## Deep dive
+
+```mermaid
+flowchart TD
+
+    A[Attempt exercises]
+    B[Run tests]
+    C[Commit]
+    D[Push]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> A
+```
 
 We'd recommend squashing the bugs in the following order:
 
