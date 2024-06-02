@@ -59,6 +59,22 @@ in the terminal.
 >
 > in the terminal to clear it and test again to make reading easier.
 
+## Committing and pushing
+
+Each time you fix a bug, you should commit your code:
+
+```bash
+git commit -am "fixes add.js"
+```
+
+And then "push" it to Github:
+
+```bash
+git push
+```
+
+This means other people can see the code you've written, and you can get feedback if needed.
+
 ## Deep dive
 
 We'd recommend squashing the bugs in the following order:
