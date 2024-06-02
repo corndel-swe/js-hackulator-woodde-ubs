@@ -81,7 +81,9 @@ in the terminal.
 
 This means other people can see the code you've written, and you can get help if needed.
 
-## Deep dive
+## Workflow
+
+In summary, your workflow should look like this:
 
 ```mermaid
 flowchart TD
@@ -96,6 +98,8 @@ flowchart TD
     C --> D
     D --> A
 ```
+
+## Deep dive
 
 We'd recommend squashing the bugs in the following order:
 
