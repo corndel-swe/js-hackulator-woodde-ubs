@@ -66,14 +66,18 @@ git commit -am "fixes add.js"
 or
 
 ```bash
-git commit -am "attemps subtract.js (feedback needed)"
+git commit -am "attempts subtract.js (feedback needed)"
 ```
 
 ## Pushing
 
+After committing, you can push your changes to Github by running
+
 ```bash
 git push
 ```
+
+in the terminal.
 
 This means other people can see the code you've written, and you can get help if needed.
 
