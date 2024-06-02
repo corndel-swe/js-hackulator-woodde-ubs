@@ -51,7 +51,7 @@ in the terminal.
 > npm run test:add
 > ```
 >
-> in the terminbal will test only the `add.js` code.
+> in the terminal will test only the `add.js` code.
 
 ## Committing
 
