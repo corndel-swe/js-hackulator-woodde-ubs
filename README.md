@@ -10,18 +10,19 @@ Bugs... bugs everywhere!
 
 ## Getting started
 
-1. Make sure your machine is set up according to the instructions with node, npm
-   and git.
+1. Make sure your machine is set up according to the instructions with
+   - [bash](https://tech-docs.corndel.com/bash/)
+   - [vscode](https://tech-docs.corndel.com/vscode/)
+   - [git](https://tech-docs.corndel.com/git/)
+   - [node & npm](https://tech-docs.corndel.com/js/installation.html)
 
 1. Clone the repository (i.e. download it), so you have a copy on your machine.
 
-1. Once cloned, open a terminal in the project root folder, and run
+1. Once cloned, open a terminal in the project folder, and run
 
    ```bash
    npm install
    ```
-
-   to get the dependencies.
 
    You should see some output in the terminal saying the packages have been
    audited. If you've got this far, great! You're on track.
@@ -31,25 +32,32 @@ Bugs... bugs everywhere!
 > If you see a message about "vulnerabilities", don't worry. We aren't deploying
 > our code. This is something we'll talk about later.
 
-Get started with the deep dive below and happy learning!
+## Running tests
 
-## Workflow
+To check if your solution for one of the exercises has worked, you can run the command
 
-Make sure to commit and push often - keeping commits small is one of the best
-ways to keep your project well-organised.
-
-```mermaid
-flowchart TD
-    A[Read doc page]
-    B[Attempt exercises]
-    C[Run tests]
-    D[Commit & push]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> A
+```bash
+npm run test
 ```
+
+in the terminal.
+
+> [!TIP]
+>
+> There can be quite a lot of output in the terminal when you run tests.
+> Scroll up to the top of the output to see a summary of the results, then
+> scroll through the output to see more detail about why each test has failed.
+
+> [!TIP]
+>
+> Run tests frequently! You should run tests every time you think you've solved
+> something. You can run the command:
+>
+> ```bash
+> clear
+> ```
+>
+> in the terminal to clear it and test again to make reading easier.
 
 ## Deep dive
 
