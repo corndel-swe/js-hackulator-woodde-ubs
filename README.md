@@ -101,6 +101,9 @@ flowchart TD
 
 ## Deep dive
 
+Before attempting the deep dive, check out the Foundations section
+of the Tech Docs, starting with [Variables](https://tech-docs.corndel.com/js/variables.html).
+
 We'd recommend squashing the bugs in the following order:
 
 1. [add.js](/src/add.js)
