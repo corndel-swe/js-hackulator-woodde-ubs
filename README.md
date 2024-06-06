@@ -16,7 +16,11 @@ Bugs... bugs everywhere!
    - [git](https://tech-docs.corndel.com/git/)
    - [node & npm](https://tech-docs.corndel.com/js/installation.html)
 
-1. Clone the repository (i.e. download it), so you have a copy on your machine.
+1. Clone the repository (i.e. download it), so you have a copy on your machine:
+
+   ```bash
+   git clone <your-repository-url>
+   ```
 
 1. Once cloned, open a terminal in the project folder, and run
 
