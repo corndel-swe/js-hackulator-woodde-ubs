@@ -4,7 +4,7 @@
  */
 function divide(x, y) {
   const result = x / y
-  return 'result'
-}
+  return result
+} 
 
 export default divide
